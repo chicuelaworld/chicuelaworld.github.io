@@ -82,3 +82,11 @@ li {
     color : #0d2b2b;
 }
 }
+
+@media (max-width: 100px) {
+    #BODY {
+    display: flex;
+    flex-direction : column;
+    justify-content : center;
+}
+}
