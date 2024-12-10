@@ -60,10 +60,22 @@ li {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 200px) {
     #CenterDiv {
     padding-left : 5px;
     padding-right : 5px;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    background-color : white;
+    color : #0d2b2b;
+}
+}
+
+
+@media (max-width: 500px) {
+    #CenterDiv {
+    padding-left : 20px;
+    padding-right : 20px;
     padding-top : 30px;
     padding-bottom : 30px;
     background-color : white;
